@@ -1,0 +1,17 @@
+{
+  "name": "okta-event-hook",
+  "version": "0.0.1",
+  "description": "Okta lifecycle automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "false"
+  },
+  "keywords": [
+    "okta",
+    "lifecycle",
+  ],
+  "author": "Axel Bock",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

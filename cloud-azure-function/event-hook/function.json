@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "name": "req",
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "name": "oktaEventQueue",
+      "type": "serviceBus",
+      "direction": "out",
+      "topicName": "okta-generic-event",
+      "connection": "SBConnectionWrite"
+    }
+  ]
+}
